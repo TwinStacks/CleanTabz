@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CleanTabz</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body class="bg-gray-100 p-4 w-80">
+  <div class="space-y-4">
+    <h1 class="text-xl font-bold text-center text-gray-800">🧠 CleanTabz</h1>
+    
+    <div class="space-y-2">
+      <label class="block text-sm font-medium text-gray-700">Thời gian kiểm tra</label>
+      <div class="flex space-x-2">
+        <input type="number" id="timeInput" 
+               class="flex-1 rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+               placeholder="Nhập số">
+        <select id="timeUnit" class="rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+          <option value="minutes">phút</option>
+          <option value="hours">giờ</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="space-y-2">
+      <label class="block text-sm font-medium text-gray-700">Hoặc chọn preset</label>
+      <select id="presetSelect" class="w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+        <option value="30">30 phút</option>
+        <option value="60">1 giờ</option>
+        <option value="120">2 giờ</option>
+        <option value="180">3 giờ</option>
+      </select>
+    </div>
+
+    <button id="applyBtn" 
+            class="w-full bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+      Áp dụng
+    </button>
+
+    <div id="countdown" class="text-center text-gray-600 hidden">
+      Lần kiểm tra tiếp theo: <span id="nextCheck"></span>
+    </div>
+
+    <p class="text-xs text-gray-500 text-center">
+      Khuyên dùng mỗi 2-3 tiếng để tối ưu hiệu suất trình duyệt
+    </p>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CleanTabz Notification</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body class="bg-white p-4 w-96">
+  <div class="space-y-4">
+    <h1 class="text-xl font-bold text-center text-gray-800">🧠 CleanTabz Gợi Ý Dọn Dẹp</h1>
+    
+    <div id="tabList" class="space-y-2 max-h-60 overflow-y-auto">
+      <!-- Tab items will be inserted here -->
+    </div>
+
+    <div class="flex justify-between space-x-2">
+      <button id="closeTabsBtn" 
+              class="flex-1 bg-red-500 text-white py-2 px-4 rounded-md hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2">
+        Đóng các tab này
+      </button>
+      <button id="laterBtn"
+              class="flex-1 bg-gray-500 text-white py-2 px-4 rounded-md hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2">
+        Để sau
+      </button>
+    </div>
+
+    <div id="countdown" class="text-center text-gray-600">
+      Tự động đóng sau: <span id="countdownText">10</span>s
+    </div>
+  </div>
+  <script src="noti.js"></script>
+</body>
+</html> 
