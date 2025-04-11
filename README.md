@@ -48,7 +48,7 @@ git clone https://github.com/yourusername/CleanTabz.git
 ### Project Structure
 ```
 CleanTabz/
-├── icons/               # Extension icons
+├── icons/              # Extension icons
 ├── sounds/             # Notification sounds
 ├── popup.html          # Main UI
 ├── popup.js            # UI logic
