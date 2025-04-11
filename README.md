@@ -75,19 +75,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Inspired by the need for better tab management
 - Built with Chrome Extension APIs and TailwindCSS 
 
----
-
-## ☕ Support My Work
-
-If you like this project or find it helpful, consider buying me a coffee.  
-Your support helps me keep building cool stuff for the community 💻✨
-
-**Bitcoin (BTC) Address**  
-`3A5Aj5yiZhSgpAWpNHQSfFbGAgjpQosXjH`
-
-<img src="https://github.com/user-attachments/assets/c0ba0ba5-8c07-407e-ad35-3f68b6e1a639" width="225" />
-
-
-Thank you! 🙌
-
----
